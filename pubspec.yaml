@@ -1,0 +1,28 @@
+name: aplikasi_profil_fakultas
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  # profile
+  - assets/profile/me.png
+  # logo
+  - assets/logo/feb_logo.jpg
+  - assets/logo/ekonomi_pembangunan.jpg
+  - assets/bg/bg_feb.jpg
+
